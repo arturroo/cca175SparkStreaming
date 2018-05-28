@@ -33,6 +33,6 @@ assemblyMergeStrategy in assembly := {
 
 assemblyOption in assembly := (assemblyOption in assembly).value.copy(includeScala = false)
 
-// mainClass in assembly := Some("pl.tvn.zto.spark2.etl.Main")
+// mainClass in assembly := Some("arturro.cca175.spark2.etl.Main")
 assemblyJarName in assembly := "cca175-spark-streaming.jar"
         
